@@ -1,0 +1,58 @@
+.nav-container{
+    display: flex;
+    padding: 8px;
+    background-color: rgba(235, 68, 17, 0.918);
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+
+.nav-logo{
+    color: white;
+    height: 50px;
+    padding-left: 50px;
+}
+
+.Search_input{
+    width: 40%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-left: 100px;
+}
+
+.search-btn{
+height: 40px;
+width: 40px;
+background-color: rgb(243, 199, 183);
+padding: 5px;
+cursor: pointer;
+color: orangered;
+}
+
+.cart-btn{
+    height: 40px;
+width: 40px;
+color: white;
+margin-left: 20px;
+cursor: pointer;
+margin-right: 40px;
+}
+.nav-item{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.nav-items{
+display: flex;
+gap: 10px;
+font-weight: 500;
+color: white;
+}
+
+.nav-item:hover{
+    color: lightgray;
+    text-decoration: underline;
+}
